@@ -10,3 +10,6 @@
 - **eslint-config-airbnb**: For having the set of rules airbnb for eslint
 - **eslint-plugin-import**: For managing the alias import with eslint
 - **eslint-plugin-react**: For managing the react rules
+- **prettier**: For formating the style of the code
+- **eslint-plugin-prettier**: For using the prettier package with esLint
+- **sass**: For using the SASS css preprocessor (scss)
