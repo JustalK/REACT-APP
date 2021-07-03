@@ -7,7 +7,7 @@ import React from 'react'
 import Seo from '@components/Seo'
 
 /**
- * @function Home
+ * @function Secondary
  * Create the component Secondary
  * @return {Object} Return the dom of the Secondary page
  */
