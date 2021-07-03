@@ -1,7 +1,11 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "description": "Kevin Justal's Project",
   "private": true,
+  "engines": {
+    "node": ">=16.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,7 +21,9 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
-    "linter:fix": "eslint --fix ./src"
+    "linter:fix": "eslint --fix ./src",
+    "build:docs": "npx jsdoc -r ./src ./README.md",
+    "check-update": "npm outdated --depth=0"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +53,7 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
+    "jsdoc": "^3.6.7",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
     "react-app-rewired": "^2.1.8",
