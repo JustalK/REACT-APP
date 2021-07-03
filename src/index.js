@@ -6,7 +6,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import '@styles/index.scss'
-import Home from '@pages/Home'
+import App from '@src/App'
 
 /**
  * @function render
@@ -14,7 +14,7 @@ import Home from '@pages/Home'
  */
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 )

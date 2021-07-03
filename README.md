@@ -13,3 +13,5 @@
 - **prettier**: For formating the style of the code
 - **eslint-plugin-prettier**: For using the prettier package with esLint
 - **sass**: For using the SASS css preprocessor (scss)
+- **jsdoc**: For managing the dev documentation of the project
+- **react-router-dom**: For managing the router and the path to the differents pages
