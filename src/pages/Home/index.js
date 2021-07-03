@@ -4,6 +4,7 @@
  */
 
 import React from 'react'
+import Seo from '@components/Seo'
 
 /**
  * @function Home
@@ -11,7 +12,12 @@ import React from 'react'
  * @return {Object} Return the dom of the Home page
  */
 const Home = () => {
-  return <span>Test</span>
+  return (
+    <>
+      <Seo title="Home" description="Description of Home" />
+      Test
+    </>
+  )
 }
 
 export default Home

@@ -4,6 +4,7 @@
  */
 
 import React from 'react'
+import Seo from '@components/Seo'
 
 /**
  * @function Home
@@ -11,7 +12,12 @@ import React from 'react'
  * @return {Object} Return the dom of the Secondary page
  */
 const Secondary = () => {
-  return <span>Test 2</span>
+  return (
+    <>
+      <Seo title="Secondary" description="Description of Secondary" />
+      Test 2
+    </>
+  )
 }
 
 export default Secondary
