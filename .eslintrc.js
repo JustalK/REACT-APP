@@ -30,7 +30,8 @@ module.exports = {
           ['@pages', './src/pages'],
           ['@styles', './src/styles'],
           ['@components', './src/components'],
-          ['@services', './src/services']
+          ['@services', './src/services'],
+          ['@constants', './src/constants']
         ]
       }
     }
@@ -45,6 +46,7 @@ module.exports = {
         semi: false
       }
     ],
+    'react/prop-types': 0,
     'arrow-body-style': 0
   }
 }
