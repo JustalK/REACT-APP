@@ -74,7 +74,8 @@ npm run start
 
 ## Commands
 
-- **npm run start**: Run the linter and then the project
+- **npm run start**: Run the build version on a local server
+- **npm run dev**: Run the linter and then the project in Devlopment mode
 - **npm run build**: Build the project
 - **npm run test**: Run the test of the project
 - **npm run eject**: Eject the application (sometimes necessary)
