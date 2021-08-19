@@ -1,5 +1,7 @@
 # REACT APP TEMPLATE
 
+[![Maintainability Status](https://api.codeclimate.com/v1/badges/f6f7ed79501f794ce74d/maintainability)](https://codeclimate.com/github/JustalK/REACT-APP/maintainability)
+
 ## Goal
 
 This project is a template for building react-app with all my favorite tools already configured.
