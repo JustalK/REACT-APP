@@ -8,7 +8,9 @@ This project is a template for building react-app with all my favorite tools alr
 
 Obviously, the app is using the latest version of `react`. For avoiding the relative path, I modified the webpack and allowing the import with an alias. I also added the support for sass files.
 
-In addition, I added `prettier` and configured it for working well with `esLint`. Finally, I added the basic usefull package such as the router and the helmet.  
+In addition, I added `prettier` and configured it for working well with `esLint`. Finally, I added the basic usefull package such as the router and the helmet.
+
+The maintainability of the project is checked by `codeclimate`.
 
 ## Plan of the presentation
 
